@@ -25,6 +25,14 @@
 <input type="text" name="${AttributeConst.REP_TITLE.getValue()}" value="${report.title}" />
 <br /><br />
 
+<label for="${AttributeConst.CLOCK_IN.getValue()}">出勤時間</label><br />
+<input type="text" name="${AttributeConst.CLOCK_IN.getValue()}" value="${report.clockIn}" />
+<br /><br />
+
+<label for="${AttributeConst.CLOCK_OUT.getValue()}">退勤時間</label><br />
+<input type="text" name="${AttributeConst.CLOCK_OUT.getValue()}" value="${report.clockOut}" />
+<br /><br />
+
 <label for="${AttributeConst.REP_CONTENT.getValue()}">内容</label><br />
 <textarea name="${AttributeConst.REP_CONTENT.getValue()}" rows="10" cols="50">${report.content}</textarea>
 <br /><br />

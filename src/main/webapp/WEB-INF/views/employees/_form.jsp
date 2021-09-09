@@ -27,6 +27,14 @@
 <input type="password" name="${AttributeConst.EMP_PASS.getValue()}" />
 <br /><br />
 
+<label for="${AttributeConst.REP_COL_CLOCK_IN.getValue()}">出勤時間</label><br />
+<input type="clockIn" name="${AttributeConst.CLOCK_IN.setClockIn()}" />
+<br /><br />
+
+<label for="${AttributeConst.REP_COL_CLOCK_OUT.getValue()}">退勤時間</label><br />
+<input type="clockOut" name="${AttributeConst.CLOCK_OUT.getClockOut()}" />
+<br /><br />
+
 <label for="${AttributeConst.EMP_ADMIN_FLG.getValue()}">権限</label><br />
 <select name="${AttributeConst.EMP_ADMIN_FLG.getValue()}">
     <option value="${AttributeConst.ROLE_GENERAL.getIntegerValue()}"<c:if test="${employee.adminFlag == AttributeConst.ROLE_GENERAL.getIntegerValue()}"> selected</c:if>>一般</option>

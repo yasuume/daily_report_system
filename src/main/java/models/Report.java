@@ -94,4 +94,16 @@ public class Report {
     @Column(name = JpaConst.REP_COL_UPDATED_AT, nullable = false)
     private LocalDateTime updatedAt;
 
+    /**
+     * 更新日時
+     */
+    @Column(name = JpaConst.REP_COL_CLOCK_IN, nullable = false)
+    private String clockIn;
+
+    /**
+     * 更新日時
+     */
+    @Column(name = JpaConst.REP_COL_CLOCK_OUT, nullable = false)
+    private String clockOut;
+
 }
