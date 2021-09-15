@@ -98,7 +98,7 @@ table#employee_list td {
 }
 
 tr.row1 {
-        background-color: #f2f2f2;
+        background-color: #c2bcfe;
 }
 tr.row0 {
         background-color: #ffffff;
@@ -114,7 +114,7 @@ select {
 }
 
 #employee_name {
-    color: #cccccc;
+    color: #8ec7ff;
     width: 36%;
     padding-right: 3%;
     text-align: right;
@@ -122,11 +122,11 @@ select {
 }
 
 #header a {
-    color: #eeeeee;
+    color: #e9f8e4;
 }
 
 h1 a {
-    color: #eeeeee;
+    color: #e9f8e4;
 }
 table#report_list th {
     font-weight: bold;
